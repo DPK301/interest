@@ -1,0 +1,59 @@
+
+
+
+
+                           React
+                         ---------
+
+        1. Create the application : npx create-react-app  myapp
+        2. cd myapp
+        3. code .
+        4. Run the application : npm start
+        5. clean the code                   
+
+        COMPONENTS  (basic building blocks of react)
+        ----------
+           -> React app starts with a single root component
+           -> Root component is buold using one or more component
+           -> Each component can be nested with other component to any level
+        JSX
+        ---
+                JSX stands for JavaScript XML.
+                JSX provides you to write HTML/XML then preprocessor will transform these expressions into actual JavaScript code.
+                Every JSX is converted to the React.createElement function call that the browser understands
+        VDOM
+        ----
+                It is like a lightweight copy of the actual DOM(a virtual representation of the DOM). 
+                It does not have the power to directly change the layout of the document
+                The virtual DOM gets updated first instead of the real DOM.
+                When anything new is added to the application, a virtual DOM is created and it is represented as a tree.
+                Whenever there is a change in the state of any element, a new Virtual DOM tree is created.
+                New Virtual DOM tree is then compared with the previous Virtual DOM tree and make a note of the changes
+                After this, it finds the best possible ways to make these changes to the real DOM.
+                Now only the updated elements will get rendered on the page again.
+                This process of comparing the current Virtual DOM tree with the previous one is known as ‘diffing’. 
+                The entire process of transforming changes to the real DOM is called Reconciliation
+        Hooks
+        -----
+                Hooks were introduced in React 16.8 .
+                It is use React’s features-like managing your component’s state and or performing an after effect when certain changes occur in state(s) without writing a class.
+
+        state
+        -----
+                State represents the value of a dynamic properties of a React component at a given instance.
+                The React useState Hook allows us to track state in a function component.
+                State generally refers to data or properties that need to be tracking in an application
+                useState accepts an initial state and returns two values:
+
+                The current state.
+                A function that updates the state.
+        Props
+        ----- 
+                Props (short for properties) are a Component's configuration.
+                A Component cannot change its props, but it is responsible for putting together the props of its child Components.
+                Props do not have to just be data -- callback functions may be passed in as props.
+
+        React Bootstrap Installation
+        ----------------------------
+        Material UI Installation
+        ------------------------        
